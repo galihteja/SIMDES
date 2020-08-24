@@ -8,7 +8,7 @@
 #kepala_surat{
 	width:450px;
 	margin:0 auto;
-	background:url('../img/mojokerto.png') no-repeat left;
+	background:url('img\mojokerto.png') no-repeat left;
 	text-align:center;
 }
 #logo_surat{

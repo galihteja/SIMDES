@@ -166,7 +166,7 @@ echo $field_tambahan;
 <div id="surat_tampil" style="display:none;">
 <!-- awal kepala surat -->
 
-<div id="kepala_surat"><img src="img/gresik.jpg" width="100px" height="100px" id="logo_surat" valign="baseline"/>
+<div id="kepala_surat"><img src="img\mojokerto.png" width="100px" height="100px" id="logo_surat" valign="baseline"/>
 <strong>PEMERINTAHAN KABUPATEN <?php echo strtoupper($desa['kabupaten']) ?><br/>
 KECAMATAN  <?php echo strtoupper($desa['kecamatan']) ?><br/>
 DESA  <?php echo strtoupper($desa['nama']) ?><br/></strong>

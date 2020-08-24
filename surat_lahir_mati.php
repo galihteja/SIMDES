@@ -5,7 +5,7 @@ include_once "include/config.php";
 $jenis_surat = $_GET['kode_surat'];
 $nama_surat = $_GET['nama'];
 if($jenis_surat == "SM"){
-	$bag_tengah_ket = "<div>&nbsp; Tahun <div id='ket_tengah' style=\"font-weight:bolder\">\" TELAH MENINGGAL DUNIA \" pada :</div></div>";
+	$bag_tengah_ket = "<div> <div id='ket_tengah' style=\"font-weight:bolder\">\" TELAH MENINGGAL DUNIA \" pada :</div></div>";
 	}
 else {
 	$bag_tengah_ket = "<div id='ket_tengah' > Telah lahir seorang anak : <span></span></div>";
@@ -141,7 +141,7 @@ else {
 <div id="surat_tampil" style="display:none;">
 <!-- awal kepala surat -->
 
-<div id="kepala_surat"><img src="img/mojokerto.png" width="100px" height="100px" id="logo_surat" valign="baseline"/>
+<div id="kepala_surat"><img src="img\mojokerto.png" width="100px" height="100px" id="logo_surat" valign="baseline"/>
 <strong>PEMERINTAHAN KABUPATEN <?php echo strtoupper($desa['kabupaten']) ?><br/>
 KECAMATAN  <?php echo strtoupper($desa['kecamatan']) ?><br/>
 DESA  <?php echo strtoupper($desa['nama']) ?><br/></strong>

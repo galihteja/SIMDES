@@ -29,7 +29,7 @@ background:none; font-size: 12pt; }
 #kepala_surat{
 	width:95%;
 	margin:0 auto;
-	background:url('../img/mojokerto.png') no-repeat left red;
+	background:url('img\mojokerto.png') no-repeat left red;
 	text-align:center;
 	font-size: 13pt;
 }

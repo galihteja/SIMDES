@@ -26,7 +26,14 @@ $(function(){
 <body>
     <div id="main">
         <div id="header">
-            <a href="#" class="logo"><img src="img/KKN.png" width="150" height="150" alt="" /></a>
+            <div>
+                <img src="img\mojokerto.png" alt="" width="85" height="85">
+                <!-- <h1>WEB DESA</h1> -->
+            </div>
+            <!-- <div >
+                <img src="img\KKN.png" alt="" width="90" height="90">
+            </div> -->
+            <!-- <a href="#" class="logo"><img src="img/KKN.png" width="90" height="90" alt="" /></a> -->
         </div>  
        <div id="middle">
             <div id="left-column">
@@ -39,7 +46,7 @@ $(function(){
                 </ul>
                 <h3>Surat</h3>
                 <ul class="nav">
-                    <li><a href="#">Daftar Surat</a></li>
+                    <li><a href="daftar_surat.php">Daftar Surat</a></li>
                     <li><a href="tambah_surat_link.php">Buat Surat</a></li>
                 </ul>
                 <h3>User</h3>
@@ -50,15 +57,13 @@ $(function(){
              </div>
             <div id="center-column">
                 
-            </div>
-       <!---     
-            <div id="right-column">
+            </div>  
+            <!-- <div id="right-column">
                 <strong class="h">Quick Info</strong>
                 <div class="box">This is your admin home page. It will give you access to all things within the back end system that you will need to facilitate a smooth operation.</div>
-            </div>
-        --->    
+            </div> -->
         </div>
-        <div id="footer"><p>Developed by <a href="http://twitter.com/umutm">Umut Muhaddisoglu</a> 2008. Updated for HTML5/CSS3 by <a href="http://mediagearhead.com">Giles Wells</a> 2010.</a> Dikembangkan lebih lanjut oleh Tim KKN STMKG Unit10.</a> SubUnit Cakrawala, Galih Teja Kusuma.</p></div>
+        <div id="footer"><p style="text-align:center">Developed by <a href="http://twitter.com/umutm">Umut Muhaddisoglu</a> 2008. Updated for HTML5/CSS3 by <a href="http://mediagearhead.com">Giles Wells</a> 2010. <br></a> Dikembangkan lebih lanjut oleh Tim KKN STMKG Unit10.</a> SubUnit Cakrawala, Galih Teja Kusuma.</p></div>
    
     </div>
 </body>
